@@ -5,3 +5,22 @@ body {
 	width: 1170px;
 	margin: 0 auto;
 }
+.row:after {
+	content: "";
+	clear: both;
+	direction: block;
+}
+[class*="col-lg"] {
+	float: left;
+}
+
+.col-lg-3 {
+	width: 25%;
+}
+.col-lg-6 {
+	width: 50%;
+}
+header {
+	height: 100px;
+	background-color:rgba(255,255,255,0.75);
+}
