@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background-image: url(images/patt.png);
 }
@@ -8,7 +11,7 @@ body {
 .row:after {
 	content: "";
 	clear: both;
-	direction: block;
+	display: block;
 }
 [class*="col-lg"] {
 	float: left;
@@ -21,6 +24,28 @@ body {
 	width: 50%;
 }
 header {
-	height: 100px;
+	padding: 25px 0;
 	background-color:rgba(255,255,255,0.75);
+}
+.menu li {
+	float: left;
+	width: 25%;
+	border-left: 1px solid #2c71b8;
+}
+.menu li:last-child{
+	border-right: 1px solid #2c71b8;
+}
+.menu li:hover {
+	background-color: #2c71b8;
+}
+.menu li:hover a {
+	color: white;
+}
+.menu a {
+	font-size: 21px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #2c71b8;
 }
