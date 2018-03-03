@@ -53,6 +53,7 @@ header {
 	text-align: center;
 	color: #2c71b8;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 .menu li ul{
 	display: none;
@@ -102,7 +103,9 @@ header {
 	top: -10px;
 	left: -10px;
 	color: white;
-
+}
+.search {
+	/*border:1px solid #2c71b8;*/
 }
 
 .footer {
@@ -115,9 +118,90 @@ header {
 	text-align: center;
 	color: #2c71b8;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 
 }
 .main {
 	min-height: calc(100vh - 200px);
 
+}
+.col {
+	float: left;
+	width: 33.33333333%;
+	border: 1px solid #cadbed;
+	background-color: rgba(44,113,184,0.75);
+}
+.Laptops_and_Tables {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	color:white;
+	margin: 30px;
+	font-weight: bold;
+}
+.Home_page{
+	color:#7aa5d2;
+	margin: 30px;
+}
+.device_image{
+	width: 270px;
+	height: 180px;
+	background-color: #cadbed;
+	position: relative;
+}
+.device_image img {
+	position: absolute;
+	top: 45px;
+	left: 83px;
+}
+.heart{
+	border:2px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(images/heart.png);
+	position: absolute;
+	top: 50px;
+	left: 230px;
+
+}
+.square{
+	border:2px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(images/square.png);
+	position: absolute;
+	top: 10px;
+	left: 230px;
+}
+.device_description{
+	margin: 15px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+}
+span{
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	font-size: 30px;
+}
+.price {
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	text-align: center;
+	display: block;
+}
+.button {
+	width: 210px;
+	height: 50px;
+	margin: 15px 30px;
+	border: 1px solid white;
+	background-color: #2c71b8;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
 }
