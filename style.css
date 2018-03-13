@@ -25,6 +25,7 @@ body {
 }
 .col-lg-9 {
 	width: 75%;
+	border-left: 1px solid white;
 }
 header {
 	padding: 25px 0;
@@ -35,6 +36,7 @@ header {
 	width: 25%;
 	border-left: 1px solid #2c71b8;
 	position: relative;
+	z-index: 10000;
 }
 .menu > li:last-child{
 	border-right: 1px solid #2c71b8;
@@ -123,6 +125,7 @@ header {
 }
 .main {
 	min-height: calc(100vh - 200px);
+	border-top: 1px solid white;
 
 }
 .col {
@@ -130,6 +133,7 @@ header {
 	width: 33.33333333%;
 	border: 1px solid #cadbed;
 	background-color: rgba(44,113,184,0.75);
+	/*margin-left: 30px;*/
 }
 .Laptops_and_Tables {
 	font-family: 'Roboto', sans-serif;
@@ -204,4 +208,73 @@ span{
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 21px;
+}
+.row_marg {
+	margin-bottom: 30px;
+}
+.col{
+	/*margin-right: 30px;*/
+}
+.Load_more {
+	color: white;
+	margin: 40px 0px 90px 0px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	display: block;
+}
+.Device_type{
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	display: block;
+	color: white;
+	margin: 30px 0 10px 10px;
+}
+.Device_type > a {
+	color: white;
+}
+
+
+input {
+	display: none; 
+}
+label:before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	display:inline-block;
+	border: 1px solid white;
+	vertical-align: middle;
+	margin: 10px;
+}
+input:checked + label:before {
+	background:white;
+}
+label {
+	font-size: 21px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.button_submit {
+	width: 210px;
+	height: 50px;
+	margin: 0;
+	border: 1px solid white;
+	background-color: #2c71b8;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+
+}
+.Show_more {
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	display: block;
+	color: white;
+	margin: 30px 0;
+}
+.Show_more > a {
+	color: white;
 }
