@@ -16,7 +16,12 @@ body {
 [class*="col-lg"] {
 	float: left;
 }
-
+.slider div {
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	padding: 30px 0;
+}
 .col-lg-3 {
 	width: 25%;
 }
@@ -108,6 +113,8 @@ header {
 }
 .search {
 	/*border:1px solid #2c71b8;*/
+	display: block;
+	width: 150px;
 }
 
 .footer {
@@ -131,9 +138,8 @@ header {
 .col {
 	float: left;
 	width: 33.33333333%;
-	border: 1px solid #cadbed;
 	background-color: rgba(44,113,184,0.75);
-	/*margin-left: 30px;*/
+	padding: 0 15px;
 }
 .Laptops_and_Tables {
 	font-family: 'Roboto', sans-serif;
@@ -147,15 +153,16 @@ header {
 	margin: 30px;
 }
 .device_image{
-	width: 270px;
 	height: 180px;
 	background-color: #cadbed;
 	position: relative;
+	
 }
 .device_image img {
 	position: absolute;
-	top: 45px;
-	left: 83px;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,-50%);
 }
 .heart{
 	border:2px solid #2c71b8;
@@ -166,7 +173,7 @@ header {
 	background-image: url(images/heart.png);
 	position: absolute;
 	top: 50px;
-	left: 230px;
+	right: 10px;
 
 }
 .square{
@@ -178,7 +185,7 @@ header {
 	background-image: url(images/square.png);
 	position: absolute;
 	top: 10px;
-	left: 230px;
+	right: 10px;
 }
 .device_description{
 	margin: 15px;
@@ -211,9 +218,6 @@ span{
 }
 .row_marg {
 	margin-bottom: 30px;
-}
-.col{
-	/*margin-right: 30px;*/
 }
 .Load_more {
 	color: white;
@@ -277,4 +281,11 @@ label {
 }
 .Show_more > a {
 	color: white;
+}
+.product_item {
+	border: 1px solid #cadbed;
+}
+sup {
+	vertical-align: super;
+	font-size: 30px;
 }
